@@ -1,0 +1,787 @@
+header {
+  width: 100%;
+  height: 600px;
+  background: url(../img/header.png);
+  background-size: 100%;
+}
+
+.hulk {
+  width: 100%;
+  height: 700px;
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 46px 130px 40px 130px;
+}
+
+.block_text {
+  width: 477px;
+  height: 372px;
+}
+
+h1 {
+  font-size: 60px;
+  color: #000;
+}
+
+p {
+  padding-top: 54px;
+  color: #000;
+  width: 477px;
+  font-size: 27px;
+}
+
+button {
+  width: 156px;
+  height: 50px;
+  margin-top: 42px;
+  border-radius: 20px;
+  font-size: 16px;
+  background: #000;
+  color: #fff;
+}
+
+.block_img {
+  width: 647px;
+  height: 582px;
+}
+
+.america {
+  width: 100%;
+  height: 700px;
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 32px 130px 44px 130px;
+}
+
+.america > .block_img {
+  margin-left: 46px;
+}
+
+.spider {
+  width: 100%;
+  height: 700px;
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.spider > .block_text {
+  padding-left: 130px;
+}
+
+.img_spider {
+  margin-left: 464px;
+  margin-bottom: 117px;
+}
+
+.icon {
+  width: 327px;
+  height: 342px;
+}
+
+.iron {
+  width: 100%;
+  height: 700px;
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 46px 130px 40px 130px;
+}
+
+.iron > .block_img {
+  margin-left: 96px;
+}
+
+.comics {
+  width: 100%;
+  height: 700px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+}
+
+.slider {
+  width: 400px;
+  height: 500px;
+  margin-top: 40px;
+  overflow: hidden;
+}
+
+.slides {
+  width: 400px;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  width: 400px;
+  height: 391px;
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.block_slider {
+  width: 400px;
+  height: 500px;
+  background: rgb(234, 233, 233);
+}
+
+.block_slider > a {
+  font-size: 35px;
+  text-align: center;
+  color: #000;
+  font-weight: bold;
+}
+
+.a_hulk {
+  display: inline-block;
+  margin: 34px 154px 33px 144px;
+}
+
+.a_america {
+  display: inline-block;
+  margin: 33px 0 33px 33px;
+}
+
+.a_spider {
+  display: inline-block;
+  margin: 33px 0 33px 90px;
+}
+
+.a_iron {
+  display: inline-block;
+  margin: 33px 0 33px 110px;
+}
+
+.prev {
+  width: 80px;
+  position: relative;
+  bottom: 300px;
+  cursor: pointer;
+  rotate: 90deg;
+}
+
+.next {
+  width: 80px;
+  position: relative;
+  bottom: 300px;
+  left: 241px;
+  cursor: pointer;
+  rotate: -90deg;
+}
+
+footer {
+  width: 100%;
+  height: 200px;
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.block_foter {
+  width: 416px;
+  height: 200px;
+  display: grid;
+  grid-template-columns: 134px 40px 103px 84px;
+  grid-template-rows: 50px 50px;
+  align-content: center;
+}
+
+.block_foter > img {
+  width: 30px;
+  height: 30px;
+  grid-column: 2/3;
+  margin-top: 7px;
+}
+
+.block_foter > a {
+  grid-column: 3/4;
+  padding-top: 12px;
+  padding-left: 5px;
+  font-size: 17px;
+  color: black;
+}
+
+.icon {
+  width: 300px;
+  height: 76px;
+}
+
+.hulks {
+  width: auto;
+  height: 700px;
+  background: #fff;
+  display: flex;
+  font-display: row;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.img_block {
+  width: 704px;
+  height: 650px;
+}
+
+.img_hulks {
+  width: 704px;
+  height: 650px;
+}
+
+.text_block {
+  width: 444px;
+  height: 519px;
+  position: relative;
+  bottom: 20px;
+}
+
+.text_block > p {
+  padding: 55px 92px 0 0;
+  font-size: 23px;
+}
+
+.americas {
+  width: auto;
+  height: 700px;
+  background: #fff;
+  display: flex;
+  font-display: row;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.img_block {
+  width: 704px;
+  height: 650px;
+}
+
+.img_americas {
+  width: 704px;
+  height: 712px;
+}
+
+.text_block {
+  width: 444px;
+  height: 519px;
+  position: relative;
+  bottom: 20px;
+}
+
+.text_block > p {
+  padding: 55px 92px 0 0;
+  font-size: 23px;
+}
+
+.spiders {
+  width: auto;
+  height: 700px;
+  background: #fff;
+  display: flex;
+  font-display: row;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.img_block {
+  width: 704px;
+  height: 650px;
+}
+
+.img_spiders {
+  width: 704px;
+  height: 770px;
+}
+
+.text_block {
+  width: 444px;
+  height: 519px;
+  position: relative;
+  bottom: 20px;
+}
+
+.text_block > p {
+  padding: 55px 92px 0 0;
+  font-size: 23px;
+}
+
+.irons {
+  width: auto;
+  height: 700px;
+  background: #fff;
+  display: flex;
+  font-display: row;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.img_block {
+  width: 704px;
+  height: 650px;
+}
+
+.img_irons {
+  width: 704px;
+  height: 800px;
+}
+
+.text_block {
+  width: 444px;
+  height: 519px;
+  position: relative;
+  bottom: 20px;
+}
+
+.text_block > p {
+  padding: 55px 92px 0 0;
+  font-size: 23px;
+}
+
+* {
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: auto;
+  height: auto;
+}
+
+@media screen and (max-width: 744px) {
+  header {
+    height: 349px;
+  }
+  .hulk {
+    height: 593px;
+    flex-direction: column;
+  }
+  .block_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  h1 {
+    text-align: center;
+    font-size: 35px;
+  }
+  p {
+    text-align: center;
+    font-size: 23px;
+  }
+  button {
+    width: 140px;
+    height: 40px;
+    font-size: 14px;
+  }
+  .block_img {
+    width: 478px;
+    height: 360px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .block_img > img {
+    width: 341px;
+    height: 298px;
+  }
+  .america {
+    height: 730px;
+    padding: 80px 130px 44px 130px;
+    flex-direction: column;
+  }
+  .america > .block_img > img {
+    width: 265px;
+    height: 335px;
+    position: relative;
+    top: 20px;
+    right: 20px;
+  }
+  .spider {
+    height: 680px;
+    flex-direction: column;
+    padding: 170px 130px 44px 130px;
+  }
+  .spider > .block_text {
+    padding-left: 0;
+  }
+  .img_spider {
+    margin-left: 108px;
+  }
+  .img_spider > img {
+    width: 265px;
+    height: 352px;
+  }
+  .iron {
+    height: 650px;
+    flex-direction: column;
+  }
+  .iron > .block_img {
+    margin-left: 20px;
+    margin-top: 25px;
+  }
+  .iron > .block_img > img {
+    width: 265px;
+    height: 318px;
+  }
+  .comics {
+    height: 550px;
+  }
+  .slider {
+    width: 300px;
+    height: 360px;
+  }
+  .slides {
+    width: 300px;
+  }
+  .block_slider {
+    width: 300px;
+    height: 400px;
+  }
+  .slide {
+    width: 300px;
+    height: 300px;
+  }
+  .block_slider > a {
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+  }
+  .a_hulk {
+    margin: 15px 150px 50px 120px;
+  }
+  .a_america {
+    margin: 15px 0 0 56px;
+  }
+  .a_spider {
+    margin: 15px 0 0 90px;
+  }
+  .a_iron {
+    margin: 15px 0 0 100px;
+  }
+  .prev {
+    width: 70px;
+    position: relative;
+    bottom: 350px;
+  }
+  .next {
+    width: 70px;
+    position: relative;
+    bottom: 350px;
+    left: 165px;
+  }
+  .block_foter {
+    grid-template-columns: 2px 30px 103px 5px;
+    grid-template-rows: 30px 30px;
+  }
+  .block_foter > img {
+    width: 25px;
+    height: 25px;
+  }
+  .icon {
+    margin-right: 40px;
+  }
+  .block_foter > a {
+    text-decoration: none;
+    font-size: 15px;
+    padding-right: 55px;
+  }
+  .hulks {
+    height: 900px;
+    flex-direction: column-reverse;
+  }
+  .img_block {
+    margin-left: 110px;
+  }
+  .img_hulks {
+    width: 531px;
+    height: 466px;
+  }
+  .text_block {
+    top: 35px;
+  }
+  .text_block > p {
+    width: 551px;
+    text-align: left;
+  }
+  .americas {
+    height: auto;
+  }
+  .img_americas {
+    width: 500px;
+    height: 466px;
+    margin-top: 50px;
+  }
+  .spiders {
+    height: 900px;
+    flex-direction: column-reverse;
+  }
+  .img_spiders {
+    width: 500px;
+    height: 480px;
+    margin-top: 20px;
+  }
+  .irons {
+    height: 950px;
+    flex-direction: column-reverse;
+  }
+  .img_irons {
+    width: 400px;
+    height: 480px;
+    margin-top: 30px;
+    margin-left: 50px;
+  }
+}
+@media screen and (max-width: 320px) {
+  header {
+    width: 320px;
+    height: 150px;
+  }
+  .hulk {
+    height: 472px;
+    flex-direction: column;
+  }
+  .block_text {
+    width: auto;
+    flex-direction: column;
+    position: relative;
+    bottom: 20px;
+    right: 135px;
+  }
+  h1 {
+    font-size: 32px;
+  }
+  p {
+    width: 324px;
+    font-size: 14px;
+    padding-top: 25px;
+  }
+  button {
+    width: 120px;
+    height: 30px;
+    font-size: 11px;
+    margin-top: 20px;
+  }
+  .block_img {
+    width: 270px;
+    height: 360px;
+    position: relative;
+    right: 110px;
+  }
+  .block_img > img {
+    width: 262px;
+    height: 238px;
+  }
+  .america {
+    height: 580px;
+    padding: 80px 130px 44px 130px;
+    flex-direction: column;
+  }
+  .america > .block_text {
+    right: 115px;
+  }
+  .america > .block_text > h1 {
+    font-size: 30px;
+  }
+  .america > .block_text > p {
+    width: 290px;
+  }
+  .america > .block_img > img {
+    width: 265px;
+    height: 335px;
+  }
+  .spider {
+    height: 594px;
+    padding: 170px 130px 44px 130px;
+  }
+  .spider > .block_text {
+    right: 115px;
+  }
+  .spider > .block_text > p {
+    width: 300px;
+  }
+  .img_spider {
+    margin-right: 100px;
+  }
+  .img_spider > img {
+    width: 265px;
+    height: 352px;
+  }
+  .iron {
+    height: 560px;
+    flex-direction: column;
+  }
+  .iron > .block_text > p {
+    width: 300px;
+  }
+  .iron > .block_text {
+    position: relative;
+    top: 2px;
+    right: 125px;
+  }
+  .iron > .block_img > img {
+    width: 265px;
+    height: 318px;
+  }
+  .comics {
+    height: 550px;
+  }
+  .slider {
+    width: 200px;
+    height: 275px;
+  }
+  .slides {
+    width: 200px;
+  }
+  .block_slider {
+    width: 200px;
+    height: 350px;
+  }
+  .slide {
+    width: 200px;
+    height: 225px;
+  }
+  .block_slider > a {
+    font-size: 20px;
+    color: #000;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  .a_hulk {
+    margin: 14px 150px 50px 80px;
+  }
+  .a_america {
+    margin: 14px 0 0 14px;
+  }
+  .a_spider {
+    margin: 14px 0 0 45px;
+  }
+  .a_iron {
+    margin: 14px 0 0 60px;
+  }
+  .prev {
+    width: 55px;
+    position: relative;
+    bottom: 380px;
+  }
+  .next {
+    width: 55px;
+    position: relative;
+    bottom: 380px;
+    left: 85px;
+  }
+  footer {
+    height: 320px;
+    flex-direction: column;
+  }
+  .block_foter {
+    grid-template-columns: 2px 30px 0px 240px;
+    grid-template-rows: 30px 30px;
+    justify-content: center;
+  }
+  #block1 {
+    position: relative;
+    top: 80px;
+  }
+  #block {
+    position: relative;
+    bottom: 20px;
+  }
+  .block_foter > img {
+    width: 20px;
+    height: 20px;
+  }
+  .block_foter2 {
+    position: relative;
+    bottom: 100px;
+  }
+  .block_foter > a {
+    text-decoration: none;
+    font-size: 15px;
+    position: relative;
+    bottom: 3px;
+  }
+  .hulks {
+    height: 750px;
+    flex-direction: column-reverse;
+  }
+  .img_block {
+    margin-left: 1px;
+    width: auto;
+    height: auto;
+  }
+  .img_hulks {
+    width: 331px;
+    height: 266px;
+  }
+  .text_block {
+    width: 320px;
+    margin-right: 50px;
+  }
+  .text_block > h1 {
+    padding-right: 5px;
+  }
+  .text_block > p {
+    width: 370px;
+    text-align: left;
+    font-size: 18px;
+    padding-top: 30px;
+    padding-left: 50px;
+  }
+  .americas {
+    height: auto;
+    flex-direction: column-reverse;
+  }
+  .img_americas {
+    width: 300px;
+    height: 320px;
+    margin-left: 8px;
+  }
+  .americas > .text_block > h1 {
+    width: 200px;
+    padding-right: 5px;
+  }
+  .americas > .text_block > p {
+    padding-top: 40px;
+  }
+  .spiders {
+    height: 770px;
+  }
+  .spiders > .img_block {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 30px;
+    margin-left: 9px;
+  }
+  .img_spiders {
+    width: 300px;
+    height: 300px;
+  }
+  .irons {
+    height: 780px;
+  }
+  .irons > .img_block {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 30px;
+    margin-left: 11px;
+  }
+  .img_irons {
+    width: 250px;
+    height: 298px;
+    margin-top: 1px;
+    margin-left: 25px;
+  }
+}/*# sourceMappingURL=style.css.map */
