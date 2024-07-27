@@ -356,432 +356,146 @@ footer {
 }
 
 .wrapper {
-  width: auto;
+  width: 1280px;
   height: auto;
 }
 
-@media screen and (max-width: 744px) {
+@media screen and (max-width: 767px) {
+  .wrapper {
+    width: 100%;
+  }
   header {
-    height: 349px;
+    width: 100%;
+    height: 150px;
   }
-  .hulk {
-    height: 593px;
-    flex-direction: column;
-  }
-  .block_text {
-    display: flex;
+  .hulk, .america, .spider, .iron, .comics, footer {
+    width: 100%;
+    height: 472px;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    padding: 90px 0 100px 2px;
+  }
+  .block_text {
+    width: 300px;
   }
   h1 {
     text-align: center;
     font-size: 35px;
   }
   p {
+    width: 300px;
     text-align: center;
-    font-size: 23px;
-  }
-  button {
-    width: 140px;
-    height: 40px;
     font-size: 14px;
+    padding-top: 30px;
   }
-  .block_img {
-    width: 478px;
-    height: 360px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-  .block_img > img {
-    width: 341px;
-    height: 298px;
-  }
-  .america {
-    height: 730px;
-    padding: 80px 130px 44px 130px;
-    flex-direction: column;
-  }
-  .america > .block_img > img {
-    width: 265px;
-    height: 335px;
-    position: relative;
-    top: 20px;
-    right: 20px;
-  }
-  .spider {
-    height: 680px;
-    flex-direction: column;
-    padding: 170px 130px 44px 130px;
-  }
-  .spider > .block_text {
-    padding-left: 0;
-  }
-  .img_spider {
-    margin-left: 108px;
-  }
-  .img_spider > img {
-    width: 265px;
-    height: 352px;
-  }
-  .iron {
-    height: 650px;
-    flex-direction: column;
-  }
-  .iron > .block_img {
-    margin-left: 20px;
-    margin-top: 25px;
-  }
-  .iron > .block_img > img {
-    width: 265px;
-    height: 318px;
-  }
-  .comics {
-    height: 550px;
-  }
-  .slider {
+  .block_img, .img_spider {
     width: 300px;
-    height: 360px;
-  }
-  .slides {
-    width: 300px;
-  }
-  .block_slider {
-    width: 300px;
-    height: 400px;
-  }
-  .slide {
-    width: 300px;
-    height: 300px;
-  }
-  .block_slider > a {
-    font-size: 20px;
-    color: #000;
-    text-decoration: none;
-  }
-  .a_hulk {
-    margin: 15px 150px 50px 120px;
-  }
-  .a_america {
-    margin: 15px 0 0 56px;
-  }
-  .a_spider {
-    margin: 15px 0 0 90px;
-  }
-  .a_iron {
-    margin: 15px 0 0 100px;
-  }
-  .prev {
-    width: 70px;
-    position: relative;
-    bottom: 350px;
-  }
-  .next {
-    width: 70px;
-    position: relative;
-    bottom: 350px;
-    left: 165px;
-  }
-  .block_foter {
-    grid-template-columns: 2px 30px 103px 5px;
-    grid-template-rows: 30px 30px;
-  }
-  .block_foter > img {
-    width: 25px;
-    height: 25px;
-  }
-  .icon {
-    margin-right: 40px;
-  }
-  .block_foter > a {
-    text-decoration: none;
-    font-size: 15px;
-    padding-right: 55px;
-  }
-  .hulks {
-    height: 900px;
-    flex-direction: column-reverse;
-  }
-  .img_block {
-    margin-left: 110px;
-  }
-  .img_hulks {
-    width: 531px;
-    height: 466px;
-  }
-  .text_block {
-    top: 35px;
-  }
-  .text_block > p {
-    width: 551px;
-    text-align: left;
-  }
-  .americas {
     height: auto;
   }
-  .img_americas {
-    width: 500px;
-    height: 466px;
-    margin-top: 50px;
+  .hulk > .block_text {
+    height: auto;
   }
-  .spiders {
-    height: 900px;
-    flex-direction: column-reverse;
-  }
-  .img_spiders {
-    width: 500px;
-    height: 480px;
-    margin-top: 20px;
-  }
-  .irons {
-    height: 950px;
-    flex-direction: column-reverse;
-  }
-  .img_irons {
-    width: 400px;
-    height: 480px;
-    margin-top: 30px;
-    margin-left: 50px;
-  }
-}
-@media screen and (max-width: 767px) {
-  header {
-    width: 320px;
-    height: 150px;
-  }
-  .hulk {
-    height: 472px;
-    flex-direction: column;
-  }
-  .block_text {
-    width: auto;
-    flex-direction: column;
-    position: relative;
-    bottom: 20px;
-    right: 135px;
-  }
-  h1 {
-    font-size: 32px;
-  }
-  p {
-    width: 324px;
-    font-size: 14px;
-    padding-top: 25px;
+  .hulk > .block_img > img {
+    width: 262px;
+    height: 238px;
   }
   button {
     width: 120px;
     height: 30px;
-    font-size: 11px;
-    margin-top: 20px;
-  }
-  .block_img {
-    width: 270px;
-    height: 360px;
-    position: relative;
-    right: 110px;
-  }
-  .block_img > img {
-    width: 262px;
-    height: 238px;
+    font-size: 12px;
+    margin-top: 25px;
+    margin-left: 90px;
   }
   .america {
-    height: 580px;
-    padding: 80px 130px 44px 130px;
-    flex-direction: column;
-  }
-  .america > .block_text {
-    right: 115px;
-  }
-  .america > .block_text > h1 {
-    font-size: 30px;
-  }
-  .america > .block_text > p {
-    width: 290px;
+    height: 620px;
   }
   .america > .block_img > img {
     width: 265px;
     height: 335px;
   }
+  .america > .block_img {
+    margin-left: 0;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
   .spider {
     height: 594px;
-    padding: 170px 130px 44px 130px;
+    padding: 150px 0 100px 2px;
   }
   .spider > .block_text {
-    right: 115px;
-  }
-  .spider > .block_text > p {
-    width: 300px;
-  }
-  .img_spider {
-    margin-right: 100px;
+    padding-left: 0;
   }
   .img_spider > img {
-    width: 265px;
-    height: 352px;
+    width: 205px;
+    height: 351px;
+    margin-left: 80px;
+  }
+  .spider > .img_spider {
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
   }
   .iron {
     height: 560px;
-    flex-direction: column;
-  }
-  .iron > .block_text > p {
-    width: 300px;
-  }
-  .iron > .block_text {
-    position: relative;
-    top: 2px;
-    right: 125px;
   }
   .iron > .block_img > img {
     width: 265px;
-    height: 318px;
+    height: 317px;
+  }
+  .iron > .block_img {
+    margin-left: 0;
   }
   .comics {
-    height: 550px;
+    height: 587px;
+    padding: 0;
   }
-  .slider {
-    width: 200px;
-    height: 275px;
-  }
-  .slides {
-    width: 200px;
-  }
-  .block_slider {
-    width: 200px;
-    height: 350px;
+  .slider, .slides, .block_slider {
+    width: 300px;
+    height: 360px;
   }
   .slide {
-    width: 200px;
-    height: 225px;
+    width: 300px;
+    height: 300px;
   }
   .block_slider > a {
-    font-size: 20px;
-    color: #000;
-    font-size: 18px;
+    font-size: 25px;
     text-decoration: none;
   }
-  .a_hulk {
-    margin: 14px 150px 50px 80px;
-  }
-  .a_america {
-    margin: 14px 0 0 14px;
-  }
-  .a_spider {
-    margin: 14px 0 0 45px;
-  }
-  .a_iron {
-    margin: 14px 0 0 60px;
+  .a_hulk, .a_america, .a_spider, .a_iron {
+    width: 300px;
+    margin: 14px 100px 20px 4px;
   }
   .prev {
-    width: 55px;
+    width: 70px;
     position: relative;
-    bottom: 380px;
+    bottom: 210px;
   }
   .next {
-    width: 55px;
+    width: 70px;
     position: relative;
-    bottom: 380px;
-    left: 85px;
+    bottom: 210px;
+    left: 160px;
   }
   footer {
-    height: 320px;
-    flex-direction: column;
-  }
-  .block_foter {
-    grid-template-columns: 2px 30px 0px 240px;
-    grid-template-rows: 30px 30px;
-    justify-content: center;
+    height: 300px;
   }
   #block1 {
     position: relative;
-    top: 80px;
+    top: 180px;
+    right: 100px;
   }
   #block {
     position: relative;
-    bottom: 20px;
+    bottom: 100px;
+    right: 100px;
   }
-  .block_foter > img {
+  .block_foter1 > .icon {
     width: 20px;
     height: 20px;
   }
   .block_foter2 {
-    position: relative;
-    bottom: 100px;
-  }
-  .block_foter > a {
-    text-decoration: none;
-    font-size: 15px;
-    position: relative;
-    bottom: 3px;
-  }
-  .hulks {
-    height: 750px;
-    flex-direction: column-reverse;
-  }
-  .img_block {
-    margin-left: 1px;
-    width: auto;
-    height: auto;
-  }
-  .img_hulks {
-    width: 331px;
-    height: 266px;
-  }
-  .text_block {
-    width: 320px;
-    margin-right: 50px;
-  }
-  .text_block > h1 {
-    padding-right: 5px;
-  }
-  .text_block > p {
-    width: 370px;
-    text-align: left;
-    font-size: 18px;
-    padding-top: 30px;
-    padding-left: 50px;
-  }
-  .americas {
-    height: auto;
-    flex-direction: column-reverse;
-  }
-  .img_americas {
-    width: 300px;
-    height: 320px;
-    margin-left: 8px;
-  }
-  .americas > .text_block > h1 {
-    width: 200px;
-    padding-right: 5px;
-  }
-  .americas > .text_block > p {
-    padding-top: 40px;
-  }
-  .spiders {
-    height: 770px;
-  }
-  .spiders > .img_block {
-    width: 300px;
-    height: 300px;
-    margin-bottom: 30px;
-    margin-left: 9px;
-  }
-  .img_spiders {
-    width: 300px;
-    height: 300px;
-  }
-  .irons {
-    height: 780px;
-  }
-  .irons > .img_block {
-    width: 300px;
-    height: 300px;
-    margin-bottom: 30px;
-    margin-left: 11px;
-  }
-  .img_irons {
-    width: 250px;
-    height: 298px;
-    margin-top: 1px;
-    margin-left: 25px;
+    margin-bottom: 200px;
   }
 }/*# sourceMappingURL=style.css.map */
