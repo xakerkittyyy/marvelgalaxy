@@ -508,7 +508,7 @@ footer {
   .block_foter > a {
     font-size: 15px;
   }
-  .hulks {
+  .hulks, .americas, .spiders, .irons {
     width: 100%;
     height: auto;
     flex-direction: column-reverse;
@@ -529,9 +529,13 @@ footer {
     justify-content: center;
     align-items: center;
   }
-  .img_hulks {
+  .img_hulks, .img_americas {
     width: 300px;
     height: 280px;
     max-width: 100%;
+  }
+  .img_spiders, .img_irons {
+    width: 270px;
+    height: 280px;
   }
 }/*# sourceMappingURL=style.css.map */
