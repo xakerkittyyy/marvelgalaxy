@@ -464,7 +464,7 @@ footer {
     text-decoration: none;
   }
   .a_hulk {
-    margin: 14px 0 0 100px;
+    margin: 14px 0 0 90px;
   }
   .a_america {
     margin: 14px 0 0 20px;
@@ -476,15 +476,15 @@ footer {
     margin: 14px 0 0 75px;
   }
   .prev {
-    width: 70px;
+    width: 60px;
     position: relative;
-    bottom: 210px;
+    bottom: 200px;
   }
   .next {
-    width: 70px;
+    width: 60px;
     position: relative;
-    bottom: 210px;
-    left: 160px;
+    bottom: 200px;
+    left: 130px;
   }
   footer {
     height: 300px;
@@ -499,9 +499,9 @@ footer {
     bottom: 100px;
     right: 100px;
   }
-  .block_foter1 > .icon {
-    width: 20px;
-    height: 20px;
+  .block_foter > .icon {
+    width: 25px;
+    height: 25px;
   }
   .block_foter2 {
     margin-bottom: 200px;
