@@ -511,31 +511,27 @@ footer {
   .hulks {
     width: 100%;
     height: auto;
-    background: red;
     flex-direction: column-reverse;
-    align-items: center;
-    justify-content: center;
-    padding: 0 0 0 20px;
   }
-  .text_block {
-    width: 100%;
+  .text_block, .img_block {
+    width: 90%;
     height: auto;
-    margin-top: 50px;
+    margin: 20px auto;
   }
   .text_block > p {
-    width: 480px;
-    font-size: 17px;
     text-align: left;
-    padding-top: 20px;
-    padding-left: 5px;
+    font-size: 18px;
+    padding: 15px;
+    padding-top: 40px;
   }
   .img_block {
-    width: auto;
-    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .img_hulks {
-    width: 250px;
-    height: 240px;
-    margin-right: 20px;
+    width: 300px;
+    height: 280px;
+    max-width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */
