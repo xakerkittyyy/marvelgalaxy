@@ -429,7 +429,7 @@ footer {
   }
   .img_spider > img {
     width: 205px;
-    height: 351px;
+    height: 310px;
     margin-left: 80px;
   }
   .spider > .img_spider {
@@ -452,20 +452,28 @@ footer {
     padding: 0;
   }
   .slider, .slides, .block_slider {
-    width: 300px;
-    height: 360px;
+    width: 250px;
+    height: 310px;
   }
   .slide {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
   }
   .block_slider > a {
-    font-size: 25px;
+    font-size: 22px;
     text-decoration: none;
   }
-  .a_hulk, .a_america, .a_spider, .a_iron {
-    width: 300px;
-    margin: 14px 100px 20px 4px;
+  .a_hulk {
+    margin: 14px 0 0 100px;
+  }
+  .a_america {
+    margin: 14px 0 0 20px;
+  }
+  .a_spider {
+    margin: 14px 0 0 60px;
+  }
+  .a_iron {
+    margin: 14px 0 0 75px;
   }
   .prev {
     width: 70px;
@@ -497,5 +505,8 @@ footer {
   }
   .block_foter2 {
     margin-bottom: 200px;
+  }
+  .block_foter > a {
+    font-size: 15px;
   }
 }/*# sourceMappingURL=style.css.map */
