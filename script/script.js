@@ -33,14 +33,14 @@ showSlide(currentIndex);
 
 //buttom
 function openNewPageHulk() {
-    window.open('../person/hulks.html', '_blank');
+    window.open('person/hulks.html', '_blank');
 }
 function openNewPageAmerica() {
-    window.open('../person/americas.html', '_blank');
+    window.open('person/americas.html', '_blank');
 }
 function openNewPageSpider() {
-    window.open('../person/spiders.html', '_blank');
+    window.open('person/spiders.html', '_blank');
 }
 function openNewPageIron() {
-    window.open('../person/irons.html', '_blank');
+    window.open('person/irons.html', '_blank');
 }
