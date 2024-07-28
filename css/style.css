@@ -222,9 +222,8 @@ footer {
 }
 
 .hulks {
-  width: auto;
+  width: 1280px;
   height: 700px;
-  background: #fff;
   display: flex;
   font-display: row;
   justify-content: space-around;
@@ -467,13 +466,13 @@ footer {
     margin: 14px 0 0 90px;
   }
   .a_america {
-    margin: 14px 0 0 20px;
+    margin: 14px 0 0 18px;
   }
   .a_spider {
-    margin: 14px 0 0 60px;
+    margin: 14px 0 0 55px;
   }
   .a_iron {
-    margin: 14px 0 0 75px;
+    margin: 14px 0 0 69px;
   }
   .prev {
     width: 60px;
@@ -508,5 +507,35 @@ footer {
   }
   .block_foter > a {
     font-size: 15px;
+  }
+  .hulks {
+    width: 100%;
+    height: auto;
+    background: red;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 0 20px;
+  }
+  .text_block {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+  }
+  .text_block > p {
+    width: 480px;
+    font-size: 17px;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 5px;
+  }
+  .img_block {
+    width: auto;
+    height: auto;
+  }
+  .img_hulks {
+    width: 250px;
+    height: 240px;
+    margin-right: 20px;
   }
 }/*# sourceMappingURL=style.css.map */
